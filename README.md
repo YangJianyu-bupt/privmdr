@@ -10,7 +10,7 @@
 
 ## Guide of Using Code
 
-The directory **"source code"** contains the following files:**
+The directory **"source code"** contains the following files:
 
 HDG.py: HDG algorithm
 
