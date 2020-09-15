@@ -4,7 +4,7 @@
 
 # Guide of Using Code 
 
-The code is implemented using Python3.7. The descriptions of files are in the following:
+**The code is implemented using Python3.7. The descriptions of files are in the following:**
 
 
 HDG.py: HDG algorithm
