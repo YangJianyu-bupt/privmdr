@@ -134,7 +134,10 @@ class AG_Uniform_Grid_optimal:
         for j in range(self.group_num): # initialize LDP mechanism for each attribute group
             tmp_Grid = self.Grid_set[j]
             tmp_domain_size = len(tmp_Grid.cell_list)
+
             tmp_LDR = FreOra.OUE(domain_size=tmp_domain_size, epsilon= self.args.epsilon, sampling_factor=self.group_num, args=self.args)
+            # tmp_LDR = FreOra.OLH(domain_size=tmp_domain_size, epsilon= self.args.epsilon, sampling_factor=self.group_num, args=self.args)
+
             self.LDP_mechanism_list_divide_user.append(tmp_LDR)
 
         for i in range(self.args.user_num):

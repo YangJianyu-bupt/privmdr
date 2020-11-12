@@ -8,8 +8,8 @@ import parameter_setting as para
 
 
 def setup_args(args = None):
-    # args.algorithm_name = 'TDG'
-    args.algorithm_name = 'HDG'
+    args.algorithm_name = 'TDG'
+    # args.algorithm_name = 'HDG'
 
     args.user_num = 1000000
     args.attribute_num = 6
