@@ -17,7 +17,7 @@ consistency_method.py: norm_sub
 
 estimate_method.py: weighted update
 
-frequecy_oracle.py: LDP categorical frequency oracle
+frequecy_oracle.py: LDP categorical frequency oracles including OUE and OLH
 
 generate_query.py: generate the range queries
 
