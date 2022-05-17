@@ -90,7 +90,7 @@ class OLH:
             tmp_real_val = self.user_real_val_list[i]
             hashed_val_list[i] = (xxhash.xxh32(str(tmp_real_val), seed = hash_function_seeds_list[i]).intdigest()) % self.g
 
-            if samples_one[i] > self.g:
+            if samples_one[i] > self.p:
                 tmp_report_val = np.random.randint(0, self.g - 1)
                 if tmp_report_val >= hashed_val_list[i]:
                     tmp_report_val += 1
